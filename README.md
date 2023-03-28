@@ -20,13 +20,13 @@ Installation
 this command:
 
 ```bash
-$ symfony new --demo my_project
+symfony new --demo my_project
 ```
 
 Alternatively, you can use Composer:
 
 ```bash
-$ composer create-project symfony/symfony-demo my_project
+composer create-project symfony/symfony-demo my_project
 ```
 
 If you want to test the demo without installing anything locally, you can also
