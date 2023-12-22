@@ -34,10 +34,10 @@
                     {{ 'help.browse_admin'|trans|raw }}
                 </p>
                 <p>
-                    {% if (is_granted('')) or is_granted('ROLE_ADMIN') %}
                     <a class="btn btn-primary btn-lg" href="{{ path('admin_index') }}">
                         <i class="fa fa-lock" aria-hidden="true"></i> {{ 'action.browse_admin'|trans }}
                     </a>
+                    {% if (is_granted('')) or is_granted('ROLE_ADMIN') %}
                         {% else %}
                         {{ app.user }}
                     {% endif %}

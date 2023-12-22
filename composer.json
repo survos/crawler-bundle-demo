@@ -1,8 +1,8 @@
 {
     "license": "proprietary",
     "type": "project",
-    "minimum-stability": "stable",
-    "prefer-stable": true,
+    "minimum-stability": "beta",
+    "prefer-stable": false,
     "replace": {
         "symfony/polyfill-php72": "*",
         "symfony/polyfill-php73": "*",
@@ -18,7 +18,6 @@
         "doctrine/doctrine-migrations-bundle": "^3.0",
         "doctrine/orm": "^2.10",
         "league/commonmark": "^2.1",
-        "sensio/framework-extra-bundle": "^6.2",
         "survos/crawler-bundle": "*@dev",
         "symfony/apache-pack": "^1.0",
         "symfony/asset": "^6.2",
@@ -95,7 +94,7 @@
     "extra": {
         "symfony": {
             "allow-contrib": true,
-            "require": "6.2.*"
+            "require": "6.4.*"
         }
     },
     "repositories": {

@@ -12,7 +12,7 @@ import 'jquery'
 import './js/highlight.js';
 
 // Creates links to the Symfony documentation
-import './js/doclinks.js';
+// import './js/doclinks.js';
 
 // start the Stimulus application
 import './bootstrap';

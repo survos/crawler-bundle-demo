@@ -1,6 +1,9 @@
 survos_crawler:
   base_url: https://127.0.0.1:8001/
   login_path: /en/login
+  users:
+#    - john_user
+#    - jane_admin
   username_form_variable: _username
   password_form_variable: _password
   plaintext_password: kitten
